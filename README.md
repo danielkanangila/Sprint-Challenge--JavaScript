@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    `.forEach` doesn't return anything from the callback function, while `.map` returns a new array of the same size from the callback function.
+
 2. What is the difference between a function and a method?
+    
+    A function is defined outside of an object, while a methid is a function that belongs to an object or defined inside a object.
 
 3. What is closure?
 
+    A Closure is the combination of a function encapsulated together with references to its surrounding state. A closure allow to have access to the variables defined outside of the function scope.
+
 4. Describe the four rules of the 'this' keyword.
 
+    1. Wehen is invoked in gobal scope, the value of "this" will be the  window in the browser or console Object in Node.
+    2. When is invoked in implicit binding object, the value of "this" will be the object standing before the dot.
+    3. When is invoked in instatiate object create with "new" keyword, "this" refers to the instance of the created object.
+    4. "this" is explicitly binding when  using JavaScript methods "call" or "apply".
+
 5. Why do we need super() in an extended class?
+
+    The super keyword is used form child to call its parent's constructor and access its parent's methods. 
 
 ## Project Set up
 
